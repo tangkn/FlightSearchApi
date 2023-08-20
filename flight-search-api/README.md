@@ -14,9 +14,9 @@
 - Open swagger ui : http://localhost:8082/swagger-ui/index.html#/
 - Create a new user with role "ADMIN" http://localhost:8082/api/portal/user/create 
 - {
-  "name":"gokhan",
+  "name":"test",
   "password":"testpass",
-  "email":"gokhan@test.com",
+  "email":"test@test.com",
   "roles":"ADMIN"
   }
 - OR insert an admin to the t_user_info table manually
