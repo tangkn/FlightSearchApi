@@ -19,7 +19,7 @@
   "email":"gokhan@test.com",
   "roles":"ADMIN"
   }
-- OR insert a admin to t_user_info table manually
+- OR insert an admin to the t_user_info table manually
 - name: gokhan
 - email: gokhan@test.com
 - password: $2a$10$dphCbIWc2hTSbIp.7D6ioOoS2w9lwkHmbUW8hbSbWrOZoC37.MPdO
