@@ -55,7 +55,7 @@ public class FlightRestController {
         return RestResponseUtils.success(flightService.update(flightDTO));
     }
 
-    @Operation(summary = "Search all available flight by given info", description = "Returns all available flight info")
+    @Operation(summary = "Search all available flight by given info (enter time as string)", description = "Returns all available flight info")
     @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/search")
     public RestResponse<List<Flight>> getFlights(
