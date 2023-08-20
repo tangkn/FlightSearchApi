@@ -11,7 +11,7 @@
 
 ### When Running
 
-- Open swagger ui : http://localhost:8082/swagger-ui/index.html#/
+- To open swagger ui : http://localhost:8082/swagger-ui/index.html#/
 - Create a new user with role "ADMIN" http://localhost:8082/api/portal/user/create 
 - {
   "name":"test",
