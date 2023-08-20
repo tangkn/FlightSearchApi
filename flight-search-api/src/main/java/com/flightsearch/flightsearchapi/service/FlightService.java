@@ -144,23 +144,3 @@ public class FlightService {
         return flightRepository.findAll();
     }
 }
-/*
- List<Flight> flights = new ArrayList<>();
-
-      if (returnTime == null) {
-          // Tek yönlü uçuş
-          List<Flight> oneWayFlights = flightRepository.findByDepartureAirportIdAndArrivalAirportIdAndDepartureTimeGreaterThanEqualAndReturnTimeIsNull(
-                  departureAirportId, arrivalAirportId, departureTime);
-          flights.addAll(oneWayFlights);
-      } else {
-          // Çift yönlü uçuş
-          List<Flight> departureFlights = flightRepository.findByDepartureAirportIdAndArrivalAirportIdAndDepartureTimeGreaterThanEqualAndReturnTimeIsNotNull(
-                  departureAirportId, arrivalAirportId, departureTime);
-          List<Flight> returnFlights = flightRepository.findByDepartureAirportIdAndArrivalAirportIdAndDepartureTimeGreaterThanEqualAndReturnTimeIsNotNull(
-                  arrivalAirportId, departureAirportId, returnTime);
-          flights.addAll(departureFlights);
-          flights.addAll(returnFlights);
-      }
-
-      return flights;
- */
